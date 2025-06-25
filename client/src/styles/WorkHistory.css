@@ -1,0 +1,42 @@
+.experienceSection {
+  background-color: var(--white);
+  padding: 4rem 1rem;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  text-align: center;
+  color: var(--green-primary);
+  margin-bottom: 3rem;
+}
+
+.experienceItem {
+  margin-bottom: 2.5rem;
+}
+
+.role {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: var(--gray-dark);
+}
+
+.company {
+  color: var(--green-primary);
+  font-weight: 500;
+}
+
+.duration {
+  font-size: 0.95rem;
+  color: var(--gray-mid);
+  margin-bottom: 1rem;
+}
+
+.details {
+  padding-left: 1.25rem;
+  list-style: disc;
+  color: var(--gray-dark);
+}
+
+.details li {
+  margin-bottom: 0.5rem;
+}

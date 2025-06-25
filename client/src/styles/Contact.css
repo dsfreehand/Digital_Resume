@@ -1,0 +1,21 @@
+.contactSection {
+  background-color: var(--gray-light);
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.contactForm {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contactForm input,
+.contactForm textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.contactForm button {
+  margin-top: 0.5rem;
+}

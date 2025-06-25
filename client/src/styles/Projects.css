@@ -1,0 +1,35 @@
+.projectsSection {
+  background-color: var(--white);
+  padding: 4rem 1rem;
+}
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.projectCard {
+  background-color: var(--gray-light);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.projectCard:hover {
+  transform: scale(1.03);
+}
+
+.projectTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--gray-dark);
+  margin-bottom: 0.5rem;
+}
+
+.projectLinks {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}

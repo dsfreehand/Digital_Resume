@@ -1,0 +1,146 @@
+/* global.css */
+
+/* Color Theme */
+:root {
+  --green-primary: #3B7F6A;
+  --green-accent: #A7D7C5;
+  --gray-dark: #1F2937;
+  --gray-mid: #4B5563;
+  --gray-light: #F9FAFB;
+  --white: #ffffff;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base Typography */
+html {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--gray-light);
+  color: var(--gray-dark);
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  color: var(--green-primary);
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: var(--green-accent);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: var(--gray-dark);
+  line-height: 1.25;
+}
+
+/* Buttons */
+button {
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 6px;
+  background-color: var(--green-primary);
+  color: var(--white);
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: var(--green-accent);
+  color: var(--gray-dark);
+}
+
+/* Inputs */
+input,
+textarea {
+  font: inherit;
+  padding: 0.75rem;
+  border: 1px solid var(--gray-mid);
+  border-radius: 6px;
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: var(--white);
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--green-primary);
+  box-shadow: 0 0 0 2px rgba(59, 127, 106, 0.25);
+}
+
+/* Utility Layout */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.section {
+  padding: 4rem 0;
+  border-bottom: 1px solid var(--green-accent);
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: var(--green-primary);
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(31, 41, 55, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: var(--white);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+}
+
+.modal h2 {
+  margin-bottom: 1rem;
+  color: var(--green-primary);
+}
+
+/* global.css */
+
+/* Background Theme */
+body {
+  background: linear-gradient(to bottom, #f9fafb, #f0fdf4);
+  /* Or: background-color: #f9fafb; */
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  color: var(--gray-dark);
+  line-height: 1.6;
+}

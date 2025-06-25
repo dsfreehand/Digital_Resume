@@ -1,0 +1,48 @@
+.skill-category {
+  margin-top: 2.5rem;
+}
+
+.skill-category h3 {
+  color: var(--green-primary);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-align: left;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skillGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.skillCard {
+  background: var(--white);
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--gray-dark);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+  text-align: center;
+  transform: translateY(0);
+  cursor: default;
+  border: 1px solid transparent;
+}
+
+.skillCard:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 6px 12px rgba(59, 127, 106, 0.15);
+  border-color: var(--green-accent);
+  background-color: #f1fdf9;
+}
+
+
+.skillCard:hover {
+  transform: translateY(-4px);
+}

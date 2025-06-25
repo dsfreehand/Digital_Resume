@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./client/src"
+  },
+  "include": ["client/src", "client/dist/App.js", "client/dist/main.js", "client/dist/Skills.js", "client/dist/Projects.js", "client/dist/Hero.js", "client/dist/Header.js", "client/dist/Footer.js", "client/dist/Contact.js", "client/dist/About.js", "client/dist/Home.js"]
+}

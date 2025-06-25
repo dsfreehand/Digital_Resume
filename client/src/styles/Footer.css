@@ -1,0 +1,31 @@
+.footer {
+  background-color: var(--gray-dark);
+  color: var(--gray-light);
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.footerText {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #d1d5db;
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.footerLinks a {
+  color: var(--green-accent);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.footerLinks a:hover {
+  color: var(--white);
+}
