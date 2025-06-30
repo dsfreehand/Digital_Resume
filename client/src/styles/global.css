@@ -136,7 +136,7 @@ textarea:focus {
 
 /* Background Theme */
 body {
-  background: linear-gradient(to bottom, #f9fafb, #f0fdf4);
+  background: linear-gradient(to bottom, #8aa5c0, #f0fdf4);
   /* Or: background-color: #f9fafb; */
   font-family: 'Inter', sans-serif;
   font-size: 16px;
