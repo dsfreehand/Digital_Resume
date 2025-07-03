@@ -1,5 +1,5 @@
 .projectsSection {
-  background-color: var(--white);
+ background: linear-gradient(to right, #e0f2f1, #ffffff);
   padding: 4rem 1rem;
 }
 

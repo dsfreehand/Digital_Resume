@@ -1,16 +1,18 @@
-.aboutSection {
-  background-color: var(--white);
+.about-section {
+
   padding: 4rem 1rem;
+  margin: 1rem;
 }
 
-.aboutContent {
-  max-width: 720px;
+.about-content {
+  /* max-width: 720px; */
   margin: 1rem auto;
   text-align: center;
   line-height: 1.7;
 }
 
-.aboutHighlight {
+.section-title {
   color: var(--green-primary);
   font-weight: 600;
 }
+

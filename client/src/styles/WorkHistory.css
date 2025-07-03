@@ -1,5 +1,5 @@
-.experienceSection {
-  background-color: var(--white);
+.experience-section {
+
   padding: 4rem 1rem;
 }
 
@@ -10,7 +10,7 @@
   margin-bottom: 3rem;
 }
 
-.experienceItem {
+.experience-item {
   margin-bottom: 2.5rem;
 }
 
